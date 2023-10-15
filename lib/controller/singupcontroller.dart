@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:mycart/screens/home.dart';
-import 'package:mycart/screens/loginview.dart';
+import 'package:mycart/screens/firebase/home.dart';
+import 'package:mycart/screens/firebase/loginview.dart';
 
 class SignupController {
   final _auth = FirebaseAuth.instance;
